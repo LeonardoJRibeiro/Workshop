@@ -15,13 +15,19 @@ $router
     ->post('/(\w+)', function ($module) {
         echo $_POST['nome'];
     })
-    
-    ->get('/cadastro', function(){
+    ->get('/', function(){
         ob_start();
         require dirname(__DIR__) . "/view/home.php";
         $html = ob_get_contents();
         ob_end_clean();
-        return $html;
+        return "$html";
+    })
+    ->get('/cadastro', function(){
+        ob_start();
+        require dirname(__DIR__) . "/view/cadastro.php";
+        $html = ob_get_contents();
+        ob_end_clean();
+        return "$html";
     })
     ->get('/(.*)', function(){
         return "Essa página não existe!";
