@@ -1,0 +1,53 @@
+div{
+    color: #978B7A;
+}
+
+header{
+    margin-top: 100px;
+}
+
+.edicao{
+    font-size: 90px;
+}
+
+.evento{
+    font-size: 80px;
+}
+
+.tema{
+    font-size: 65px;
+}
+
+.ai-img{
+    width: 400px;
+}
+
+.sobre{
+    padding-top: 150px;
+}
+
+.titulo-sobre{
+    color: #978B7A;
+    text-align: center;
+}
+
+.texto-sobre{
+    color: #978B7A;
+}
+
+.porque{
+    padding-top: 100px;
+}
+
+.palestrantes{
+    padding-top: 100px;
+}
+
+.rodape{
+    color:#978B7A;
+    margin-top: 100px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+    background-color:#2C2A2B;
+    text-align: center;
+}

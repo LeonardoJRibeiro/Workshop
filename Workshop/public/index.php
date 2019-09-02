@@ -22,9 +22,30 @@ $router
         ob_end_clean();
         return "$html";
     })
+     ->get('/home', function(){
+        ob_start();
+        require dirname(__DIR__) . "/view/home.php";
+        $html = ob_get_contents();
+        ob_end_clean();
+        return "$html";
+    })
     ->get('/cadastro', function(){
         ob_start();
         require dirname(__DIR__) . "/view/cadastro.php";
+        $html = ob_get_contents();
+        ob_end_clean();
+        return "$html";
+    })
+    ->get('/login', function(){
+        ob_start();
+        require dirname(__DIR__) . "/view/login.php";
+        $html = ob_get_contents();
+        ob_end_clean();
+        return "$html";
+    })
+    ->get('/galeria', function(){
+        ob_start();
+        require dirname(__DIR__) . "/view/galeria.php";
         $html = ob_get_contents();
         ob_end_clean();
         return "$html";
