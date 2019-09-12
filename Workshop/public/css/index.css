@@ -1,10 +1,63 @@
+html{
+    overflow-x: hidden;
+    
+}
+
 div{
     color: #978B7A;
 }
 
 header{
-    margin-top: 100px;
+    margin-top: 80px;
 }
+
+
+.infos{
+    margin-top: 80px;
+}
+
+.data{
+    background-color: #2C2A2B;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+
+.img-data{
+    width: 60px;
+}
+
+.local{
+    background-color: #2C2A2B;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 20px
+}
+
+.img-local{
+    width: 60px;
+}
+
+.valor{
+    background-color: #2C2A2B;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 22px;
+}
+
+.img-valor{
+    width: 60px;
+}
+
 
 .edicao{
     font-size: 90px;
@@ -19,11 +72,13 @@ header{
 }
 
 .ai-img{
-    width: 400px;
+    max-width: 400px;
+    width: auto;
+    height: auto;
 }
 
 .sobre{
-    padding-top: 150px;
+    padding-top: 50px;
 }
 
 .titulo-sobre{
@@ -36,11 +91,21 @@ header{
 }
 
 .porque{
-    padding-top: 100px;
+    padding-top: 80px;
 }
 
 .palestrantes{
-    padding-top: 100px;
+    padding-top: 80px;
+}
+
+.final{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.final-titulo{
+    font-size: 90px;
 }
 
 .rodape{
@@ -49,5 +114,49 @@ header{
 	padding-top: 30px;
 	padding-bottom: 30px;
     background-color:#2C2A2B;
+}
+
+#map {
+    height: 230px;
+    width: 530px;
+}
+
+.img-rodape{
+    width: 30px;
+    padding-bottom: 15px;
+}
+
+.rodape-down{
+    background-color: #978B7A;
+    color: #2C2A2B;
+    padding-top: 20px;
+    padding-bottom: 20px;
     text-align: center;
+}
+
+
+
+ 
+
+
+[data-anime] {
+    opacity: 0;
+    transition: 2s;
+}
+
+[data-anime="left"] {
+    transform: translate3d(-50px, 0, 0);
+}
+
+[data-anime="right"] {
+    transform: translate3d(50px, 0, 0);
+}
+
+[data-anime="top"] {
+    transform: translate3d(0, 100px, 0);
+}
+
+[data-anime].animate {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
 }
