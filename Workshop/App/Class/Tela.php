@@ -13,9 +13,9 @@
  */
 class Tela {
     public static function inicioGaleria(){
-        echo "  <div id=\"links\">
-                    <div class=\"row\">
-                        ";
+        echo "<div id=\"links\">
+                 <div class=\"row\">
+                 ";
     }
 
     public static function fimGaleria(){
@@ -31,14 +31,14 @@ class Tela {
         echo "  </div>";
     }
     public static function mostraImagem($caminho){
-        echo"       <div class=\"col-lg-2 col-md-3 col-sm-4 col-6 d-flex p-1 animated zoomIn\" id=\"links\">
+        echo"   <div class=\"col-lg-2 col-md-3 col-sm-4 col-6 d-flex p-1 animated zoomIn\" id=\"links\">
                         <div class=\"mx-auto\">
                             <a class=\" my-auto\" href=\"$caminho\" data-gallery=\"\">
                                 <img src=\"$caminho\" class=\"img-fluid img-auto img-thumbnail\">
                             </a>
                         </div>
                     </div>
-                    ";                
+                ";                
     }
     public static function mostraImagemAdmin($caminho, $id){
         echo"       <div class=\"col-lg-2 col-md-3 col-sm-4 col-6\" >

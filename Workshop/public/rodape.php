@@ -11,13 +11,13 @@
                                 <a style="color: #978B7A" href="https://www.facebook.com/XIV-Workshop-UEG-101095124610909/?modal=admin_todo_tour"><img src="img/facebook.png" class="img-rodape">&nbsp;&nbsp;Facebook</a>
                             </div>
                             <div>
-                                <a style="color: #978B7A" ><img src="img/whatsapp.png" class="img-rodape">&nbsp;&nbsp;(62) 99323-2527</a>
+                                <a style="color: #978B7A" ><img src="img/whatsapp.png" class="img-rodape">&nbsp;&nbsp;</a>
                             </div>
                             <div>
                                 <a style="color: #978B7A" ><img src="img/email.png" class="img-rodape">&nbsp;&nbsp;xivworkshopueg@gmail.com</a>
                             </div>
                             <div>
-                                <a style="color: #978B7A" href="https://github.com/EduardoReisDev/SiteWorkshopUEG"><img src="img/github.png" class="img-rodape">&nbsp;&nbsp;OpenSource Code</a>
+                                <a style="color: #978B7A" href="https://github.com/LeonardoJRibeiro/Workshop"><img src="img/github.png" class="img-rodape">&nbsp;&nbsp;OpenSource Code</a>
                             </div>
                         </div>
 

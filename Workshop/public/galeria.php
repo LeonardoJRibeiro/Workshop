@@ -41,18 +41,18 @@
             </div>
         </nav>
         <div class="container-fluid">
-                    <?php
-                        if(isset($_POST['sair'])){
-                            session_destroy();
-                            header("Location: galeria");
-                        }
-                        if(isset($_SESSION['administrador'])){
-                            include_once '../App/enviarfotos.php';
-                        }
-                        require_once '../App/Class/ImagemDataObject.php';
-                        $imagens = new ImagemDataObject;
-                        $imagens->listar(isset($_SESSION['administrador']));
-                    ?>
+            <?php
+                if(isset($_POST['sair'])){
+                    session_destroy();
+                    header("Location: galeria");
+                }
+                if(isset($_SESSION['administrador'])){
+                    include_once '../App/enviarfotos.php';
+                }
+                require_once '../App/Class/ImagemDataObject.php';
+                $imagens = new ImagemDataObject;
+                $imagens->listar(isset($_SESSION['administrador']));
+            ?>
         </div>
         <div id="blueimp-gallery" class="blueimp-gallery">
             <div class="slides"></div>
