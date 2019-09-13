@@ -20,10 +20,31 @@
         </style>
     </head>
     <body style="background-color: #343233">
-        <?php 
-            session_start();
-            include 'barraDeNavegacao.php'; 
-        ?>
+        <nav class="navbar navbar-fixa-pc navbar-expand-md navbar-dark bg-dark" style="baclkground-color: #2C2A2B;">
+        <a class="navbar-brand" href="#" style="color: #978B7A">XIV Workshop UEG</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="index">Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Galeria</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://doity.com.br/xiv-workshop-ueg-1">Participe</a>
+                </li>
+                <?php
+                    session_start();
+                    if(isset($_SESSION['administrador'])){
+                        include 'formSair.php';
+                    }
+                ?>
+            </ul>
+        </div>
+    </nav>
         <div class="container-fluid">
                     <?php
                         if(isset($_POST['sair'])){
@@ -49,7 +70,6 @@
         <ol class="indicator"></ol>
     </div>
     <script type="text/javascript">
-        //document.getElementById('botao').onclick = function (event) {event = event || window.event;};
         document.getElementById('links').onclick = function (event) {
         event = event || window.event;
         var target = event.target || event.srcElement,
