@@ -11,7 +11,9 @@ header{
     margin-top: 80px;
 }
 
-
+.texto{
+    text-align: justify
+}
 .infos{
     margin-top: 80px;
 }
@@ -118,7 +120,7 @@ header{
 
 #map {
     height: 230px;
-    width: 530px;
+    width: 100%;
 }
 
 .img-rodape{
