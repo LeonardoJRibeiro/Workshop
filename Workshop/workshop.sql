@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: 12-Set-2019 às 15:16
+-- Generation Time: 14-Set-2019 às 23:45
 -- Versão do servidor: 5.7.21
 -- PHP Version: 5.6.35
 
@@ -33,7 +33,27 @@ CREATE TABLE IF NOT EXISTS `imagem` (
   `idImagem` int(11) NOT NULL AUTO_INCREMENT,
   `caminho` varchar(255) NOT NULL,
   PRIMARY KEY (`idImagem`)
-) ENGINE=InnoDB AUTO_INCREMENT=62 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=111 DEFAULT CHARSET=utf8;
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `patrocinador`
+--
+
+DROP TABLE IF EXISTS `patrocinador`;
+CREATE TABLE IF NOT EXISTS `patrocinador` (
+  `idPatrocinador` int(11) NOT NULL AUTO_INCREMENT,
+  `caminho` varchar(255) NOT NULL,
+  PRIMARY KEY (`idPatrocinador`)
+) ENGINE=MyISAM AUTO_INCREMENT=9 DEFAULT CHARSET=utf8;
+
+--
+-- Extraindo dados da tabela `patrocinador`
+--
+
+INSERT INTO `patrocinador` (`idPatrocinador`, `caminho`) VALUES
+(8, 'patrocinadores/0dcbf5418faca7ccad6a66ac7fcf3fd6.jpg');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

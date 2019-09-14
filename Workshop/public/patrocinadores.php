@@ -1,5 +1,14 @@
 <div class="container">
     <script>var admin = false;</script>
+    <div class="row">
+        <div class="col-12">
+            <div class="d-flex">
+                <div class="mx-auto">
+                    <h1>Patrocinadores:</h1>
+                </div>
+            </div>
+        </div>
+    </div>
     <div id="blueimp-gallery-carousel" class="blueimp-gallery blueimp-gallery-carousel d-block">
         <div class="slides">
             <div id="links">
