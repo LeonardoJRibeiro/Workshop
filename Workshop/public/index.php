@@ -29,7 +29,7 @@
                         <a class="nav-link" href="">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="galeria">Galeria</a>
+                        <a class="nav-link" href="galeria.php">Galeria</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="https://doity.com.br/xiv-workshop-ueg-1">Participe</a>
@@ -70,7 +70,9 @@
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="d-flex">
-                                    <img src="img/data.png" class="img-data mx-auto">
+                                    <div class="mx-auto">
+                                        <img src="img/data.png" class="img-data">
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -86,7 +88,9 @@
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="d-flex">
-                                    <img src="img/local.png" class="img-local mx-auto">
+                                    <div class="mx-auto">
+                                        <img src="img/local.png" class="img-local">
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -103,7 +107,9 @@
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="d-flex">
-                                    <img src="img/valor.png" class="img-valor mx-auto">
+                                    <div class="mx-auto">
+                                        <img src="img/valor.png" class="img-valor">
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -119,7 +125,7 @@
         <div class="container">
             <div class="sobre">
                 <h1 class="titulo-sobre">Sobre o evento</h1><br>
-                <a class="texto-sobre">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lacinia nisl ac rutrum rutrum. Morbi convallis velit ac elit molestie, vel mollis nulla gravida. Pellentesque ut nisi tristique erat rhoncus condimentum. Morbi elementum auctor ex a condimentum. Maecenas sed leo condimentum, bibendum velit a, euismod augue. Pellentesque in elementum nibh, sit amet condimentum risus. Phasellus quis pulvinar odio. Sed eleifend elit vel placerat maximus. Praesent venenatis ultricies lacus ac aliquet. In vehicula tortor ligula, in volutpat quam consequat at. Donec ut massa odio. Sed maximus elit neque, vitae aliquet mi condimentum eget. Suspendisse dignissim risus id luctus malesuada. Integer volutpat, felis sit amet euismod sagittis, justo nibh faucibus sapien, ac vehicula leo lacus vitae est. Etiam sollicitudin turpis at magna ornare dapibus.</a>
+                <a class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lacinia nisl ac rutrum rutrum. Morbi convallis velit ac elit molestie, vel mollis nulla gravida. Pellentesque ut nisi tristique erat rhoncus condimentum. Morbi elementum auctor ex a condimentum. Maecenas sed leo condimentum, bibendum velit a, euismod augue. Pellentesque in elementum nibh, sit amet condimentum risus. Phasellus quis pulvinar odio. Sed eleifend elit vel placerat maximus. Praesent venenatis ultricies lacus ac aliquet. In vehicula tortor ligula, in volutpat quam consequat at. Donec ut massa odio. Sed maximus elit neque, vitae aliquet mi condimentum eget. Suspendisse dignissim risus id luctus malesuada. Integer volutpat, felis sit amet euismod sagittis, justo nibh faucibus sapien, ac vehicula leo lacus vitae est. Etiam sollicitudin turpis at magna ornare dapibus.</a>
             </div>
             <div class="palestrantes">
                 <div class="row">

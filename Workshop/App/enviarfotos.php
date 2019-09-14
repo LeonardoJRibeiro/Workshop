@@ -21,10 +21,8 @@
             aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
         </div>
     </div>
-    
- 
-    <script src="js/canvas-to-blob.min.js"></script>
-    <script src="js/resize.js"></script>
+  <script type="text/javascript" src="js/canvas-to-blob.min.js"></script>
+  <script type="text/javascript" src="js/resize.js"></script>
     <script type="text/javascript">
         // Iniciando biblioteca
         var resize = new window.resize();
