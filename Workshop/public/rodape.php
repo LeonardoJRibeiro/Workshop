@@ -19,6 +19,9 @@
                             <div>
                                 <a style="color: #978B7A" href="https://github.com/LeonardoJRibeiro/Workshop"><img src="img/github.png" class="img-rodape">&nbsp;&nbsp;OpenSource Code</a>
                             </div>
+                            <div>
+                                <a style="color: #978B7A" href="login.html">login</a>
+                            </div>
                         </div>
 
                         <div class="col-md-6 p-3 m-1 d-block" id="map">

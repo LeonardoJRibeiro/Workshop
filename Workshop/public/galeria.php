@@ -1,3 +1,4 @@
+<?php require_once '../App/bootstrap.php';?>
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-sacale=1">
@@ -33,7 +34,6 @@
                         <a class="nav-link" href="https://doity.com.br/xiv-workshop-ueg-1">Participe</a>
                     </li>
                     <?php
-                        session_start();
                         if(isset($_SESSION['administrador'])){
                             include 'formSair.php';
                         }
@@ -43,10 +43,6 @@
         </nav>
         <div class="container-fluid">
             <?php
-                if(isset($_POST['sair'])){
-                    session_destroy();
-                    header("Location: galeria");
-                }
                 if(isset($_SESSION['administrador'])){
                     include_once '../App/enviarfotos.php';
                 }

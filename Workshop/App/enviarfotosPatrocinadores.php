@@ -1,10 +1,9 @@
-  <h1>Enviar Fotos</h1>
     <form method="post" action="#" role="form">
         <div class="row">
             <div class="col">
-                <div class="form-group">
-                    <label for="imagem" class="custom-file-label">Escolher Imagens</label>
-                <input id="imagem" class="custom-file-input" type="file" accept="image/*" multiple/>
+                <div class="form-group mt-3">
+                    <input id="imagem" class="custom-file-input" type="file" accept="image/*" multiple/>
+                    <label for="imagem" class="custom-file-label form-control mt-3">Escolher Imagens de patrocinadores</label>
                 </div>
             </div>
         </div>
@@ -103,7 +102,7 @@
            resize.photo(imagens[imagem_atual], 1920, 'dataURL', function (imagem) {
 
                // Salvando imagem no servidor
-               $.post('../App/salvarImagem.php', {imagem: imagem }, function() {
+               $.post('../App/salvarImagemPatrocinador.php', {imagem: imagem }, function() {
 
                    // Definindo porcentagem
                    var porcentagem = (imagem_atual + 1) / imagens.length * 100;

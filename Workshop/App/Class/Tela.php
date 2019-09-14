@@ -30,6 +30,14 @@ class Tela {
     public static function fimLinha(){
         echo "  </div>";
     }
+    public static function mostraImagemPatrocinador($caminho){
+        echo"<a href=\"$caminho\"></a>
+                ";                
+    }
+    public static function mostraImagemPatrocinadorAdmin($caminho, $id){
+        echo"   <a href=\"$caminho\" title=\"$id\"></a>
+                    ";                
+    }
     public static function mostraImagem($caminho){
         echo"   <div class=\"col-lg-2 col-md-3 col-sm-4 col-6 d-flex p-1 animated zoomIn\" id=\"links\">
                         <div class=\"mx-auto shadow\">

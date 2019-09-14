@@ -1,3 +1,4 @@
+<?php require_once '../App/bootstrap.php';?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -7,7 +8,12 @@
         <link rel="stylesheet" type="text/css" href="css/index.css">
         <link rel="stylesheet" type="text/css" href="node_modules/animate.css/animate.css">
         <link rel="stylesheet" type="text/css" href="bootstrap-4.1.3/css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="BlueimpGaleria/css/blueimp-gallery.min.css">
+        <link rel="stylesheet" type="text/css" href="BlueimpGaleria/css/blueimp-gallery-indicator.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        
+        <script type="text/javascript" src="BlueimpGaleria/js/blueimp-gallery.min.js"></script>
+        <script type="text/javascript" src="BlueimpGaleria/js/vendor/jquery.js"></script>
         <title>XIV Workshop UEG</title>
         <style type="text/css">
             @media(min-width: 720px){
@@ -122,6 +128,7 @@
                 </div>
             </div>
         </div>
+        <?php include_once 'patrocinadores.php';?>
         <div class="container">
             <div class="sobre">
                 <h1 class="titulo-sobre">Sobre o evento</h1><br>
